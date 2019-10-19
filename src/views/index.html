@@ -1,0 +1,72 @@
+<html ng-app="poblacion_mx_App">
+<head>
+<!-- 
+<meta content="text/html; charset=UTF-8; X-Content-Type-Optionas=text/javascript" http-equiv="Content-Type" />
+-->
+     <!-- Sem UI CDN 2019-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <!--Angularjs / Google chart: Load the AJAX API-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+<title>SPA MEAN Stack Demo</title>
+</head>
+<body class="ui active inverted placeholder">
+       
+        <h1 class="ui block header">
+        <a class="ui blue ribbon label">SPA Demo:</a>
+            Basic JS MEAN Stack
+        </h1>
+        
+
+        <div class="ui segment">
+            <a class="ui green ribbon label">Indicadores del Crecimiento de la Población en México:</a>
+            <div ng-controller="myController">
+                <div id="curve_chart" style="width: 900px; height: 500px"></div>
+            </div>
+        </div>
+
+       <div class="ui segment"> 
+            <a class="ui red ribbon label">Descripción:</a>
+           
+            <ul style="list-style-type:disc;">
+                <li>Se presentan los datos del crecimiento de la población en México,
+                de los periodos 1990 a 2015 en formato gráfico linear, se utilizaron datos de API INEGI.
+                </li>
+                
+                <li>Se utilizó AngularJS con Google charts para construir el front end, 
+                para el backend se utilizó ExpressJS y Mongo DB Atlas.
+                </li>     
+            </ul>
+            <ul style="list-style-type:disc;">
+                <li><a href="https://nodejs.org/en/">Node.js</a></li>
+                <li><a href="https://expressjs.com/">ExpressJS</a></li>
+                <li><a href="https://angularjs.org/">AngularJS</a></li>
+                <li><a href="https://developers.google.com/chart">Google Charts</a></li>
+                <li><a href="https://semantic-ui.com/">Semantic UI : CSS Framework</a></li>
+                <li><a hfer="https://university.mongodb.com/">mongoDB University</a></li>
+            </ul>
+        </div>
+        
+        <div class="ui segment"> 
+            <a class="ui purple ribbon label">Mapa de rutas:</a>
+            <ul style="list-style-type:disc;">
+                <li>secret</li>
+                <li>count</li>
+                <li>poblacion</li>
+            </ul>
+        </div>
+        
+        <div class="ui segment"> 
+            <a class="ui yellow ribbon label">Detalles:</a>
+            <ul style="list-style-type:disc;">
+                <li><a href="https://www.inegi.org.mx/programas/intercensal/2015/">INEGI Datos</a></li>
+                <li>Tags: Code, JavaScript, MEAN Stack, Hobby ...</li>
+                <li>Diseñado por Marco Galicia</li>
+            </ul>
+        </div>
+ </body>
+</html>
