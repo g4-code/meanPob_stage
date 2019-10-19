@@ -8,9 +8,10 @@ Los pasos a seguir son similares al readme de :
 https://github.com/g4-code/phoenician_fullStack_stage.git
 
 1) Actualizas npm con las dependencias
+2) Set Up MongoDB Atlas
 2) Ejecutas bulkInsert.js
-3) Actualizas archivo .env.
-4) Inicias la aplicacion desde node.js
+4) Actualizas archivo .env.
+5) Inicias la aplicacion desde node.js
 
 Los datos vienen de la página de INEGI, tienen una API con muchos datos relacionados a México:
 
@@ -37,9 +38,10 @@ Same steps as :
 https://github.com/g4-code/phoenician_fullStack_stage.git
 
 1) Run npm update
-2) bulkInsert.js Execute
-3) .env. File Update
-4) node.js app start
+2) Set Up MongoDB Atlas
+3) bulkInsert.js Execute
+4) .env. File Update
+5) node.js app start
 
 Data is extracted from INEGI web API, this API contains relevant data of Mexico.
 
