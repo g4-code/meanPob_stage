@@ -32,7 +32,7 @@ MEAN Stack SPA Basic Demo
 
 Mexican Population Statistics Period: 1990-2013 API INEGI
 
-Same steps as following readme :
+Same steps as :
 
 https://github.com/g4-code/phoenician_fullStack_stage.git
 
@@ -41,7 +41,7 @@ https://github.com/g4-code/phoenician_fullStack_stage.git
 3) .env. File Update
 4) node.js app start
 
-Data is extracted from INEGI web, there's an API available, API contains relevant data of Mexico.
+Data is extracted from INEGI web API, this API contains relevant data of Mexico.
 
 https://www.inegi.org.mx/temas/estructura/
 
