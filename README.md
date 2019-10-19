@@ -24,3 +24,27 @@ En el código angularJS:
 Saludos.
 
 //////////////////////////////
+# poblacionMX_stage
+MEAN Stack SPA Basic Demo
+
+Mexican Population Statistics Period: 1990-2013 API INEGI
+
+Same steps as following readme :
+
+https://github.com/g4-code/phoenician_fullStack_stage.git
+
+1) Run npm update
+2) bulkInsert.js Execute
+3) .env. File Update
+4) node.js app start
+
+Data is extracted from INEGI web, there's an available API with relevant data of Mexico.
+Let me know if any questions
+
+AngularJS code:
+1) Controller
+2) Data Factory
+3) Data processing Factory
+4) Google Chart
+
+Bye!
