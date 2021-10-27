@@ -19,7 +19,8 @@ const MongoError = require("mongodb").MongoError
             //para la base de datos sample_collections
             //despues reemplaza tu user y tu pass en la linea 24
             //puede que el query string cambie...you can do this!!!
-            const host = "mongodb+srv://user:password@hmaaa.mongodb.net/test?retryWrites=true&w=majority";
+            //const host = "mongodb+srv://g4student:g4student@hmaaa.mongodb.net/test?retryWrites=true&w=majority";
+            const host = "mongodb://poblacionUser:poblacionUser@cluster0-shard-00-00-hmaaa.mongodb.net:27017,cluster0-shard-00-01-hmaaa.mongodb.net:27017,cluster0-shard-00-02-hmaaa.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
             const client = await MongoClient.connect(
                 host,
                 { retryWrites: true },

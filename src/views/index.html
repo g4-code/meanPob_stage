@@ -7,66 +7,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/></link>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <!--Angularjs / Google chart: Load the AJAX API-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   
     <script type="text/javascript" src="js/index.js"></script>
-<title>SPA MEAN Stack Demo</title>
+<title>KIO API</title>
 </head>
 <body class="ui active inverted placeholder">
        
         <h1 class="ui block header">
-        <a class="ui blue ribbon label">SPA Demo:</a>
-            Basic JS MEAN Stack
+        <a class="ui blue ribbon label">KIO API:</a>
+            <small>Version beta</small>
         </h1>
+        <h1>Mapa de Rutas API</h1>
+        <li><small><a href="http://localhost:3200/perfiles">Perfiles URI (http://localhost:3200/perfiles)</a></small></li>
+        <br />
+        <li><small><a href="http://localhost:3200/tablaskio">Tablas URI (http://localhost:3200/tablaskio)</a></small></li>
+        <br />
+        <li><small><a href="http://localhost:3200/getorderbyid/e8fc2f7d-78f4-455f-abd9-b65bb7c2b1b9">GetOrderById (http://localhost:3200/getorderbyid/id)</a></small></li>
+        <br />
+        <small>
+        Get All Orders By User:<br />
+        <li><a href="http://localhost:3200/getallordersbyuser/Jesua001">Jesua (http://localhost:3200/getallordersbyuser/Jesua001)</a></li>
+        <li><a href="http://localhost:3200/getallordersbyuser/Edgar001">Edgar (http://localhost:3200/getallordersbyuser/Edgar001)</a></li>
+        <li><a href="http://localhost:3200/getallordersbyuser/Joshua001">Josue (http://localhost:3200/getallordersbyuser/Joshua001)</a></li>
+        <li><a href="http://localhost:3200/getallordersbyuser/Marco001">Marco (http://localhost:3200/getallordersbyuser/Marco001)</a></li>
+        </small>
         
-
-        <div class="ui segment">
-            <a class="ui green ribbon label">Indicadores del Crecimiento de la Población en México:</a>
-            <div ng-controller="myController">
-                <div id="curve_chart" style="width: 900px; height: 500px"></div>
-            </div>
-        </div>
-
-       <div class="ui segment"> 
-            <a class="ui red ribbon label">Descripción:</a>
-           
-            <ul style="list-style-type:disc;">
-                <li>Se presentan los datos del crecimiento de la población en México,
-                de los periodos 1990 a 2015 en formato gráfico linear, se utilizaron datos de API INEGI.
-                </li>
-                
-                <li>Se utilizó AngularJS con Google charts para construir el front end, 
-                para el backend se utilizó ExpressJS y Mongo DB Atlas.
-                </li>     
-            </ul>
-            <ul style="list-style-type:disc;">
-                <li><a href="https://nodejs.org/en/">Node.js</a></li>
-                <li><a href="https://expressjs.com/">ExpressJS</a></li>
-                <li><a href="https://angularjs.org/">AngularJS</a></li>
-                <li><a href="https://developers.google.com/chart">Google Charts</a></li>
-                <li><a href="https://semantic-ui.com/">Semantic UI : CSS Framework</a></li>
-                <li><a hfer="https://university.mongodb.com/">mongoDB University</a></li>
-            </ul>
-        </div>
+        <li><small><a href="http://localhost:3200/getallforecastingresultsbyorderid/e8fc2f7d-78f4-455f-abd9-b65bb7c2b1b9">Get All Forecasting Results By OrderId (http://localhost:3200/getallforecastingresultsbyorderid/orderid)</a></small></li>
+        <br />
+        <li><small><a href="http://localhost:3200/createneworder">Create New Order (http://localhost:3200/createneworder/)</a></small></li>
         
-        <div class="ui segment"> 
-            <a class="ui purple ribbon label">Mapa de rutas:</a>
-            <ul style="list-style-type:disc;">
-                <li>secret</li>
-                <li>count</li>
-                <li>poblacion</li>
-            </ul>
-        </div>
-        
-        <div class="ui segment"> 
-            <a class="ui yellow ribbon label">Detalles:</a>
-            <ul style="list-style-type:disc;">
-                <li><a href="https://www.inegi.org.mx/programas/intercensal/2015/">INEGI Datos</a></li>
-                <li>Tags: Code, JavaScript, MEAN Stack, Hobby ...</li>
-                <li>Diseñado por Marco Galicia</li>
-            </ul>
-        </div>
  </body>
 </html>
